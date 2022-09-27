@@ -1,0 +1,115 @@
+.bg-img {
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+.top-left {
+  position: absolute;
+  top: -50px;
+  left: 0px;
+}
+.centered {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  /* transform: translate(-50%, -50%); */
+}
+.bottom-left {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.slick-slide {
+margin: 0px 20px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black !important;
+}
+
+
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: .2;
+}
+
+.slick-active {
+opacity: .5;
+}
+
+.slick-current {
+opacity: 1;
+}
+/* Top right text */
+/* .top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+} */
+
+/* Bottom right text */
+/* .bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+} */
+
+
+
+/*********************************************************************/
+/* Bootstrap 4 Multiple Item Carousel */
+/*********************************************************************/
+/* medium - display 2  */
+/* @media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+    }
+} */
+
+/* large - display 3 */
+/* @media (min-width: 992px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33%);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+} */
